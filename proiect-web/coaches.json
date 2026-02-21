@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Alexandru Popescu",
+    "specialization": "Forță și Masă Musculară",
+    "experience": "10 ani",
+    "certifications": ["Certificat ISSA", "Nutrition Specialist"],
+    "bio": "Alexandru este specialist în antrenamente de forță și construirea masei musculare. Cu peste 10 ani de experiență, a ajutat sute de clienți să-și atingă obiectivele.",
+    "image": "poze/ant2.jpg"
+  },
+  {
+    "name": "Maria Ionescu",
+    "specialization": "Cardio și Pierdere în Greutate",
+    "experience": "8 ani",
+    "certifications": ["Certificat ACE", "HIIT Specialist"],
+    "bio": "Maria este expertă în antrenamente cardio și programe de pierdere în greutate. Metodele sale eficiente au transformat multe vieți.",
+    "image": "poze/antr1.jpg"
+  },
+  {
+    "name": "Andrei Georgescu",
+    "specialization": "Yoga și Flexibilitate",
+    "experience": "12 ani",
+    "certifications": ["Yoga Alliance 200h", "Meditation Instructor"],
+    "bio": "Andrei este instructor certificat de yoga cu peste 12 ani de experiență. Aduce echilibrul și armonia în fiecare sesiune.",
+    "image": "poze/ant3.png"
+  },
+  {
+    "name": "Elena Dumitrescu",
+    "specialization": "Fitness Funcțional",
+    "experience": "7 ani",
+    "certifications": ["Functional Training Specialist", "Kettlebell Certified"],
+    "bio": "Elena se specializează în fitness funcțional, ajutându-te să devii mai puternic în viața de zi cu zi.",
+    "image": "poze/ant6.jpg"
+  }
+]
+

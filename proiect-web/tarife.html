@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Tarife - Gold Fit Gym">
+  <meta name="author" content="Bratan Alexandra">
+  <meta name="keywords" content="HTML, CSS">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tarife - Gold Fit Gym</title>
+  <link rel="stylesheet" href="gym.css">
+  <script src="calculator.js" defer></script>
+  <script src="auth.js" defer></script>
+  <script src="random-color-hover.js" defer></script>
+</head>
+<body class="service-page">
+
+  <div class="top-bar">
+    <span>📞 0755 834 488</span>
+    <span>✉️ goldfit_contact@gmail.com</span>
+    <span>📍 Strada Valeriu Braniste 54-56, București</span>
+  </div>
+
+  <nav>
+    <ul class="menu">
+      <li><a href="gym.html">Acasă</a></li>
+      <li class="dropdown">
+        <a href="servicii.html">Servicii</a>
+        <ul class="dropdown-menu">
+          <li><a href="fitness.html">Fitness</a></li>
+          <li><a href="yoga.html">Yoga</a></li>
+          <li><a href="cardio.html">Cardio</a></li>
+        </ul>
+      </li>
+      <li><a href="about.html">Despre noi</a></li>
+      <li><a href="tarife.html">Tarife</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Background behind menu -->
+  <section class="service-hero" style="background-image: url('poze/sala-de-forta-7.jpg');">
+    <div class="hero-label">Tarife</div>
+  </section>
+
+  <!-- Calculator Section -->
+  <section class="calculator-section" style="background-color: #f5f5f5; padding: 60px 20px; margin: 0;">
+    <div class="rates-container">
+      <h2 style="text-align: center; margin-bottom: 40px; color: #333;">Calculator Abonament</h2>
+      <div class="calculator-form" style="max-width: 600px; margin: 0 auto; background: white; padding: 40px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);">
+        <label for="subscription-type" style="display: block; margin-bottom: 10px; font-weight: bold; color: #333;">Tip abonament:</label>
+        <select id="subscription-type" name="subscription-type" style="width: 100%; padding: 12px; margin-bottom: 30px; border: 2px solid #ddd; border-radius: 8px; font-size: 16px; box-sizing: border-box;">
+          <option value="silver-basic">Silver - Acces la toate echipamentele (200 RON/lună)</option>
+          <option value="silver-cardio">Silver - Acces la zona cardio (150 RON/lună)</option>
+          <option value="silver-strength">Silver - Acces la zona forță (180 RON/lună)</option>
+          <option value="gold-complete">Gold - Acces complet la toate zonele (350 RON/lună)</option>
+          <option value="gold-group">Gold - Clase de grup incluse (400 RON/lună)</option>
+          <option value="gold-trainer">Gold - Antrenor personal 1 sesiune/lună (450 RON/lună)</option>
+          <option value="gold-all">Gold - Acces la toate programele (380 RON/lună)</option>
+          <option value="diamond-premium">Diamond - Acces premium complet (550 RON/lună)</option>
+          <option value="diamond-trainer4">Diamond - Antrenor personal 4 sesiuni/lună (650 RON/lună)</option>
+          <option value="diamond-group">Diamond - Toate clasele de grup (600 RON/lună)</option>
+          <option value="diamond-nutrition">Diamond - Consultanță nutrițională (700 RON/lună)</option>
+        </select>
+
+        <label for="duration" style="display: block; margin-bottom: 10px; font-weight: bold; color: #333;">Durată: <span id="duration-display">1 luni</span></label>
+        <input type="range" id="duration" name="duration" min="1" max="12" value="1" style="width: 100%; margin-bottom: 30px;">
+
+        <div style="text-align: center; padding: 20px; background: linear-gradient(135deg, #f3aacD, #ff8c00); border-radius: 8px; margin-bottom: 20px;">
+          <p style="margin: 0; color: white; font-size: 18px; font-weight: bold;">Preț total:</p>
+          <p id="calculated-price" style="margin: 10px 0 0 0; color: white; font-size: 36px; font-weight: bold;">0 RON</p>
+        </div>
+
+        <div id="calculator-result" style="margin-top: 20px; padding: 15px; background: #f9f9f9; border-radius: 8px;"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- sectiunea de tarife -->
+  <section class="rates-section">
+    <div class="rates-container">
+      <h2>Abonamente</h2>
+      <div class="subscription-boxes">
+        <article class="subscription-box">
+          <h3>Silver Subscription</h3>
+          <ul>
+            <li>Acces la toate echipamentele: 200 RON/lună</li>
+            <li>Acces la zona cardio: 150 RON/lună</li>
+            <li>Acces la zona forță: 180 RON/lună</li>
+            <li>Consultanță inițială gratuită: inclus</li>
+            <li>Program: Luni-Vineri 06:00-22:00</li>
+          </ul>
+        </article>
+        <article class="subscription-box">
+          <h3>Gold Subscription</h3>
+          <ul>
+            <li>Acces complet la toate zonele: 350 RON/lună</li>
+            <li>Clase de grup incluse: 400 RON/lună</li>
+            <li>Antrenor personal (1 sesiune/lună): 450 RON/lună</li>
+            <li>Acces la toate programele: 380 RON/lună</li>
+            <li>Program: Luni-Duminică 06:00-22:00</li>
+          </ul>
+        </article>
+        <article class="subscription-box">
+          <h3>Diamond Subscription</h3>
+          <ul>
+            <li>Acces premium complet: 550 RON/lună</li>
+            <li>Antrenor personal (4 sesiuni/lună): 650 RON/lună</li>
+            <li>Toate clasele de grup: 600 RON/lună</li>
+            <li>Consultanță nutrițională: 700 RON/lună</li>
+            <li>Program: Acces nelimitat 24/7</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-left">
+        <h2>Transformă-ți viața azi!</h2>
+        <h3>La Gold Fit Gym, fiecare antrenament te aduce mai aproape de cea mai bună versiune a ta.</h3>
+        <h3>Daca vrei să devii cel mai bun, antrenează-te alături de cei mai buni!</h3>
+        <h3>Social Media</h3>
+        <p>Instagram: golfitgym_bucharest</p>
+        <p>Facebook: goldfitgym</p>
+      </div>
+      <div class="footer-right">
+        <div class="footer-section">
+          <h3>Contact</h3>
+          <p>Telefon: 0755 834 488</p>
+          <p>Email: goldfit_contact@gmail.com</p>
+        </div>
+        <div class="footer-section">
+          <h3>Locație</h3>
+          <p>Strada Valeriu Braniste 54-56, București, România</p>
+        </div>
+        <div class="footer-section">
+          <h3>Program</h3>
+          <p>Luni - Vineri: 06:00 - 22:00</p>
+          <p>Sâmbătă: 08:00 - 17:00</p>
+          <p>Duminică: 08:00 - 15:00</p>
+        </div>
+      </div>
+    </div>
+    <p class="copyright">&copy; Gold Fit 2025</p>
+  </footer>
+
+</body>
+</html>
+

@@ -1,0 +1,18 @@
+[
+  {
+    "username": "demo",
+    "password": "demo123",
+    "email": "demo@goldfitgym.ro"
+  },
+  {
+    "username": "alexandra",
+    "password": "gym2025",
+    "email": "alexandra@goldfitgym.ro"
+  },
+  {
+    "username": "member",
+    "password": "fitness123",
+    "email": "member@goldfitgym.ro"
+  }
+]
+

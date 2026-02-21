@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Gold Fit Gym">
+  <meta name="author" content="Bratan Alexandra">
+  <meta name="keywords" content="HTML, CSS">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gold Fit Gym</title>
+  <link rel="stylesheet" href="gym.css">
+  <script src="auth.js" defer></script>
+  <script src="motivational.js" defer></script>
+  <script src="canvas-animation.js" defer></script>
+</head>
+<body>
+
+  <div class="top-bar">
+    <span>📞 0755 834 488</span>
+    <span>✉️ goldfit_contact@gmail.com</span>
+    <span>📍 Strada Valeriu Braniste 54-56, București</span>
+  </div>
+
+  <nav>
+    <ul class="menu">
+      <li><a href="gym.html">Acasă</a></li>
+      <li class="dropdown">
+        <a href="servicii.html">Servicii</a>
+        <ul class="dropdown-menu">
+          <li><a href="fitness.html">Fitness</a></li>
+          <li><a href="yoga.html">Yoga</a></li>
+          <li><a href="cardio.html">Cardio</a></li>
+        </ul>
+      </li>
+      <li><a href="about.html">Despre noi</a></li>
+      <li><a href="tarife.html">Tarife</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Fundal slideshow cu poze sala-->
+  <section class="hero">
+    <div class="hero-background"></div>
+    <div class="hero-content">
+      <div class="hero-panel">
+        <h1>Gold Fit Gym</h1>
+        <p>Motivație și fitness la cel mai înalt nivel</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Canvas Animation Section -->
+  <section style="background-color: #363434; padding: 40px 20px; margin: 0;">
+    <div style="max-width: 1200px; margin: 0 auto; text-align: center;">
+      <canvas id="animation-canvas" style="border: 2px solid rgba(255, 255, 255, 0.3); border-radius: 12px; background: rgba(255, 255, 255, 0.05); display: block; margin: 0 auto;"></canvas>
+    </div>
+  </section>
+
+  <main>
+    <section id="video" style="padding-top: 1rem; margin-top: 0; padding-bottom: 4rem;">
+      <h2 style="text-transform: uppercase; color: hotpink; font-size: 3rem; text-align: center; margin-top: 0; padding-top: 1.5rem;">Sala Noastra</h2>
+     <iframe width="950" height="600"
+  src="https://www.youtube.com/embed/ZrNXcyoy8-w"
+  title="Full Body Total Beginner Workout"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+  style="display:block; margin:0 auto;">
+</iframe>
+
+      <h1 style="font-size: 3rem; text-align: left; text-transform: uppercase; color: hotpink; margin-top: 4rem;">Motivație. Putere. Rezultate.
+Gold Fit Gym – locul unde obiectivele tale devin realitate.</h1>
+      <p style="font-size: 1.5rem; text-align: left; color: #ffffff; margin: 5rem auto 0; max-width: 2000px;">Gold Fit Gym oferă echipamente de ultimă generație, antrenori profesioniști și un mediu primitor pentru a vă ajuta să vă atingeți obiectivele de fitness. Fie că vă plac antrenamentele cardio, antrenamentele de forță sau cursurile de grup, avem ceva pentru toată lumea. Alegeți Gold Fit Gym pentru a deveni mai sănătos, mai puternic și mai încrezător!</p>
+         <p style="font-size: 1.5rem; text-align: left; color: #ffffff; margin: 5rem auto 0; max-width: 2000px;">De ce să alegi Gold Fit Gym? Pentru că aici nu doar faci sport, ci construiești obiceiuri sănătoase, crești în forță și încredere, și te antrenezi într-un mediu motivant și profesionist. Fiecare membru contează, iar obiectivele tale devin prioritățile noastre.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+  <div class="footer-container">
+
+    <!-- Coloana 1: motivațional -->
+    <div class="footer-left">
+      <h2>Transformă-ți viața azi!</h2>
+      <h3>La Gold Fit Gym, fiecare antrenament te aduce mai aproape de cea mai bună versiune a ta.</h3>
+      <h3>Daca vrei să devii cel mai bun,
+        antrenează-te alături de cei mai buni!</h3>
+        <h3>                                </h3>
+        <h3>Social Media</h3>
+        <p>Instagram: golfitgym_bucharest</p>
+        <p>Facebook: goldfitgym</p>
+
+    </div>
+
+    <!-- Coloana 2: info -->
+    <div class="footer-right">
+
+      <div class="footer-section">
+        <h3>Contact</h3>
+        <p>Telefon: 0755 834 488</p>
+        <p>Email: goldfit_contact@gmail.com</p>
+      </div>
+
+      <div class="footer-section">
+        <h3>Locație</h3>
+        <p>Strada Valeriu Braniste 54-56, București, România</p>
+      </div>
+
+      <div class="footer-section">
+        <h3>Program</h3>
+        <p>Luni - Vineri: 06:00 - 22:00</p>
+        <p>Sâmbătă: 08:00 - 17:00</p>
+        <p>Duminică: 08:00 - 15:00</p>
+      </div>
+
+    </div>
+  </div>
+
+  <p class="copyright">&copy; Gold Fit 2025</p>
+</footer>
+
+
+</body>
+</html>
